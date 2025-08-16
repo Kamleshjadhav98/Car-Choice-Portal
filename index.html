@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link to Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous" />
+
+    <!-- Link to your custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Link to Font Awesome or any other CSS files, if needed -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+    <title>CarXplore</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR STARTS HERE -->
+    <header>
+      <button
+        onclick="window.location.href='index.html';">
+        CarXplore
+        <span class="first"></span>
+        <span class="second"></span>
+        <span class="third"></span>
+        <span class="fourth"></span>
+      </button>
+      <ul class="head">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#model">Models</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#finance">Finance</a></li>
+      </ul>
+    </header>
+
+    <section class="box" style="position: relative; text-align: center;">
+      <img src="images/car.jpg" alt="Car Image" id="myimage" style="width: 100%; height: auto;">
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-shadow: 2px 2px 5px black;">
+          <h1>Get your car</h1>
+          <h3>Find your own path</h3>
+      </div>
+  </section>
+    <!-- GRID LAYOUT -->
+    <div class="container-fluid mt-50">
+      <div class="row" id="model">
+        <div class="col-md-4">
+          <div class="product-card mb-30">
+            <div class="product-badge bg-success border-default text-body">
+              TOYOTA
+            </div>
+            <a class="product-thumb" href="#" data-abc="true"
+              ><img src="images/fortuner1.png" alt="Product"
+            /></a>
+            <div class="product-card-body">
+              <div class="product-category">
+                <a href="#" data-abc="true"> SUV </a>
+              </div>
+              <h3 class="product-title">
+                <a href="https://www.toyotabharat.com/showroom/fortuner/index-legender.html" data-abc="true">Fortuner </a>
+              </h3>
+              <h4 class="product-price">₹ 50,00000</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="product-card mb-30">
+            <div class="product-badge bg-success border-default text-body">
+              MAHINDRA
+            </div>
+            <a class="product-thumb" href="#" data-abc="true"
+              ><img src="images/Scorpio-n.png" alt="Product"
+            /></a>
+            <div class="product-card-body">
+              <div class="product-category">
+                <a href="#" data-abc="true"> SUV </a>
+              </div>
+              <h3 class="product-title">
+                <a
+                  href="https://auto.mahindra.com/suv/scorpio-n"
+                  data-abc="true">
+                  Scorpio-n
+                </a>
+              </h3>
+              <h4 class="product-price">₹ 16,93000</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="product-card mb-30">
+            <div class="product-badge bg-success border-default text-body">
+              TATA
+            </div>
+            <a class="product-thumb" href="#" data-abc="true"
+              ><img src="images/Harrierr.png" alt="Product"
+            /></a>
+            <div class="product-card-body">
+              <div class="product-category">
+                <a href="#" data-abc="true">Supercar</a>
+              </div>
+              <h3 class="product-title">
+                <a
+                  href="https://cars.tatamotors.com/harrier/ice.html"
+                  data-abc="true"
+                  >Harrier</a
+                >
+              </h3>
+              <h4 class="product-price">₹ 15,69000</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="product-card mb-30">
+            <div class="product-badge bg-success border-default text-body">
+              TESLA
+            </div>
+            <a class="product-thumb" href="#" data-abc="true"
+              ><img src="images/featured2.png" alt="Product"
+            /></a>
+            <div class="product-card-body">
+              <div class="product-category">
+                <a href="#" data-abc="true">Electric</a>
+              </div>
+              <h3 class="product-title">
+                <a
+                  href="https://www.tesla.com/modely/design#overview"
+                  data-abc="true"
+                  >Tesla model Y</a
+                >
+              </h3>
+              <h4 class="product-price">₹ 24,57,000</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="product-card mb-30">
+            <div class="product-badge bg-success border-default text-body">
+              AUDI
+            </div>
+            <a class="product-thumb" href="#" data-abc="true"
+              ><img src="images/featured3.png" alt="Product"
+            /></a>
+            <div class="product-card-body">
+              <div class="product-category">
+                <a href="#" data-abc="true">HYBRID</a>
+              </div>
+              <h3 class="product-title">
+                <a
+                  href="https://www.audi.in/en/models/q5/q5/"
+                  data-abc="true"
+                  >Audi Q5</a
+                >
+              </h3>
+              <h4 class="product-price">₹ 69,10000</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="product-card mb-30">
+            <div class="product-badge bg-success border-default text-body">
+              PORSCHE
+            </div>
+            <a class="product-thumb" href="#" data-abc="true"
+              ><img src="images/featured4.png" alt="Product"
+            /></a>
+            <div class="product-card-body">
+              <div class="product-category">
+                <a href="#" data-abc="true">Supercar</a>
+              </div>
+              <h3 class="product-title">
+                <a
+                  href="https://www.porsche.com/international/models/718/718-spyder-rs/718-spyder-rs/"
+                  data-abc="true"
+                  >Porsche 718</a
+                >
+              </h3>
+              <h4 class="product-price">₹ 1.52Cr</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-card mb-30">
+            <div class="product-badge bg-success border-default text-body">
+              SUZUKI
+            </div>
+            <a class="product-thumb" href="#" data-abc="true"
+              ><img src="images/Swift.png" alt="Product"
+            /></a>
+            <div class="product-card-body">
+              <div class="product-category">
+                <a href="#" data-abc="true">Hybrid</a>
+              </div>
+              <h3 class="product-title">
+                <a href="https://www.marutisuzuki.com/swift" data-abc="true">
+                  Swift
+                </a>
+              </h3>
+              <h4 class="product-price">₹ 6,70000</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="product-card mb-30">
+            <div class="product-badge bg-success border-default text-body">
+              HYUNDAI
+            </div>
+            <a class="product-thumb" href="#" data-abc="true"
+              ><img src="images/Verna.png" alt="Product"
+            /></a>
+            <div class="product-card-body">
+              <div class="product-category">
+                <a href="#" data-abc="true">SEDAN</a>
+              </div>
+              <h3 class="product-title">
+                <a
+                  href="https://www.hyundai.com/in/en/find-a-car/verna/highlights"
+                  data-abc="true"
+                  >VERNA</a
+                >
+              </h3>
+              <h4 class="product-price">₹ 14,87400</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="product-card mb-30">
+            <div class="product-badge bg-success border-default text-body">
+              Mercedes
+            </div>
+            <a class="product-thumb" href="#" data-abc="true"
+              ><img src="images/Mayback.png" alt="Product"
+            /></a>
+            <div class="product-card-body">
+              <div class="product-category">
+                <a href="#" data-abc="true">Limousine</a>
+              </div>
+              <h3 class="product-title">
+                <a
+                  href="https://www.mercedes-benz.co.in/passengercars/mercedes-benz-cars/online-testdrive.html#/request?context=OWPC&modelSeries=Z223&modelType=MERCEDES_MAYBACH&group=all&origin=VMOS&subgroup=all.BODYTYPE.saloon&dealer=GS0035879&fixedDealer=true"
+                  data-abc="true"
+                  >Maybach S-Class</a
+                >
+              </h3>
+              <h4 class="product-price">₹ 1,76,95000</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- Contact Form -->
+    <div class="contact">
+      <div class="py-5" id="contact">
+        <h2 class="text-center">Contact Us</h2>
+      </div>
+
+      <div class="w-50 m-auto">
+        <form action="fof_page.html" method="post">
+          <div class="form-group">
+            <label>Name</label>
+            <input
+              type="text"
+              name="user"
+              autocomplete="off"
+              class="form-control" />
+          </div>
+          <div class="form-group">
+            <label>Email Id</label>
+            <input
+              type="email"
+              name="email"
+              autocomplete="off"
+              class="form-control" />
+          </div>
+          <div class="form-group">
+            <label>Mobile Number</label>
+            <input
+              type="text"
+              name="mobile"
+              autocomplete="off"
+              class="form-control" />
+          </div>
+          <div class="form-group">
+            <label>Comments </label>
+            <textarea class="form-control" name="comments"></textarea>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="invalidCheck"
+                required />
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="product-price" type="button" onclick="openPopup()">
+              Submit Form
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <!-- FOOTER STARTS HERE -->
+    <footer class="footer" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>contact</h4>
+            <ul>
+              <li><a href="#">get help</a></li>
+              <li><a href="#">book a test drive</a></li>
+              <li><a href="#">nearest showroom</a></li>
+              <li><a href="#">service appointment</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>about us</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">our team</a></li>
+              <li><a href="#">our services</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">cookie policy</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Legal Disclaimer/Imprint</a></li>
+              <li><a href="#">book a service appointment</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="https://www.instagram.com/"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- loader part start  -->
+
+    <div class="popup" id="popup">
+      <img src="./images/404-tick.png" alt="" />
+      <h2>thank You!</h2>
+      <p>your order has been placed</p>
+      <button type="button" class="btn" onclick="closePopup()">OK</button>
+    </div>
+
+    <script>
+      let popup = document.getElementById("popup");
+      let background = document.getElementById("background");
+
+      function openPopup() {
+        popup.classList.add("open-popup");
+        background.classList.add("open-popup");
+      }
+
+      function closePopup() {
+        popup.classList.remove("open-popup");
+        background.classList.remove("open-popup");
+      }
+    </script>
+    <!-- linking JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
